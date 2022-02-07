@@ -1,0 +1,40 @@
+# Project information
+site_name: "docums-monorepo-plugin (&beta;)"
+site_description: |
+  The official documentation for the Docums monorepo plugin -- for building multiple documentation in a single Docums.
+copyright: 'Copyright &copy; 2022 NKDuy'
+
+# Repository
+repo_name: 'khanhduy1407/docums-monorepo-plugin'
+repo_url: 'https://github.com/khanhduy1407/docums-monorepo-plugin'
+
+# Theme
+theme:
+  name: material
+  language: 'en'
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  font:
+    text: 'Circular'
+    code: 'Inconsolata'
+
+extra:
+  repo_icon: 'github'
+
+extra_css:
+  - 'assets/stylesheets/circular.css'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+# Navigation
+nav:
+  - Getting Started: index.md
+  - Philosophy: philosophy.md
+  - Limitations: limitations.md

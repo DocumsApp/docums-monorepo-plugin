@@ -1,0 +1,6 @@
+flake8>=3.7.8
+docums>=1.2.0
+docurial>=8.1.8.1
+docums-git-authors-plugin==1.0
+docums-git-revision-date-localized-plugin==1.0
+python-slugify==4.0.1
